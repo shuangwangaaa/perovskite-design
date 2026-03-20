@@ -40,30 +40,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📁 项目文件结构
-
-```
-d:\项目\2025\2025校创\code\2\
-├── config.py                     # 配置文件
-├── llm_client.py               # LM Studio API客户端
-├── perovskite_generator.py     # 钙钛矿生成器
-├── structure_converter.py      # 结构转换工具
-├── tolerance_factor.py         # ⭐ 容忍因子计算模块（使用ML扩展Shannon数据）
-├── main.py                     # 交互界面
-├── requirements.txt             # 依赖列表
-├── README.md                   # 使用说明
-├── ML_DATA_INFO.md             # ⭐ ML扩展数据说明
-├── ShData.xlsx                 # ⭐ ML扩展Shannon离子半径数据库
-└── sciadv.aav0693.pdf         # Bartel容忍因子论文
-```
-
-## 💡 协同使用建议
-
-1. **初步筛选**：使用Qwen+τ系统快速生成和验证大量候选材料
-2. **深度优化**：对高质量候选材料使用GAN进行结构优化
-3. **实验验证**：对最终候选进行DFT计算和实验验证
-4. **迭代改进**：将实验结果反馈给GAN继续训练
-
 ## 📚 参考文献
 
 1. **Bartel CJ, et al. (2019)** - New tolerance factor to predict the stability of perovskite oxides and halides. *Science Advances*, 5, eaav0693.
